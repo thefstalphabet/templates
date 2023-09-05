@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedWatch Template</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <h6>U.S. Department of Health and Human Services</h6>
+            <p>Food and Drug Administration􀀁</p>
+            <h5><span>M</span>ED<span>W</span>ATCH</h5>
+            <h5>FORM FDA 3500A (2/19)</h5>
+        </div>
+        <div>
+            <h5>SOTERIUS</h5>
+            <h6>For use by user-facilities, importers, distributors and manufacturers for MANDATORY reporting</h6>
+            <h5>Page <span>1</span> of <span>2</span></h5>
+        </div>
+        <div>
+            <h6>Form Approved: OMB No. 0910-0291, Expires: 11/30/2021</h6>
+            <h6>See PRA statement on reverse</h6>
+            <div style="border: 1px solid black; text-align: left; line-height: 1.5; padding: 0 5px;">
+                <div style="border-bottom: 1px solid black;">
+                    <h6>Mfr Report #</h6>
+                    <h6>SOT2022-000020</h6>
+                </div>
+                <h6>UF/Importer Report #</h6>
+                <h6 style="border-top: 1px solid black; text-align: right;">FDA Use Only</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h6><span>Note:</span> For date prompts of "dd-mmm-yyyy" please use 2-digit day, 3-letter month
+                abbreviation,
+                and 4-digit year; for example, 01-Jul-2018.</h6>
+            <div class="box-a">
+                <div class="box-header">
+                    <h6>A. PATIENT INFORMATION</h6>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 2fr 1fr 1fr; gap: 10px;">
+                    <div class="one">
+                        <h6>1. Patient Identifier</h6>
+                        <h6>In confidence</h6>
+                    </div>
+                    <div class="two">
+                        <h6>2. Age</h6>
+                        <div
+                            style="display: grid; grid-template-columns: 0.2fr 0.2fr; justify-content: right; gap: 1px; row-gap: 3px; border-bottom: 1px solid black; padding-bottom: 10px;">
+                            <span><input type="checkbox">Year(s)</span>
+                            <span><input type="checkbox">Month(s)</span>
+                            <span><input type="checkbox">Week(s)</span>
+                            <span><input type="checkbox">Day(s)</span>
+                        </div>
+                        <h6>or Date of Birth <span>(e.g, 08 Feb 1925)</span></h6>
+                    </div>
+                    <div class="three">
+                        <h6>3. Gender(checkone)</h6>
+                        <div style="display: grid; row-gap: 2px;">
+                            <span><input type="checkbox">Female</span>
+                            <span><input type="checkbox">Male</span>
+                            <span><input type="checkbox">Intersex</span>
+                            <span><input type="checkbox">Transgender</span>
+                            <span><input type="checkbox">Prefer not to disclose</span>
+                        </div>
+                    </div>
+                    <div class="four">
+                        <h6 style="padding-bottom: 20px;">4. Weight</h6>
+                        <div style="display: grid; row-gap: 2px; padding-top: 5px; border-top: 1px solid black">
+                            <span><input type="checkbox">Lb</span>
+                            <span><input type="checkbox">Kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 10px; border-top: 1px solid black; padding-top: 5px;">
+                    <div class="five">
+                        <h6>5. Ethnicity (check one)</h6>
+                        <div>
+                            <span><input type="checkbox">Hispanic/Latino</span>
+                            <span><input type="checkbox">Not Hispanic/Latino</span>
+                        </div>
+                    </div>
+                    <div class="six">
+                        <h6>6. Race (check all that apply)</h6>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                            <span><input type="checkbox">Asian</span>
+                            <span><input type="checkbox">American Indian or Alaskan Native</span>
+                            <span><input type="checkbox">Black or African American</span>
+                            <span><input type="checkbox">White</span>
+                            <span><input type="checkbox">Native Hawaiian or Other Pacific Islander</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-b">
+                <div class="box-header">
+                    <h6>B. ADVERSE EVENT OR PRODUCT PROBLEM</h6>
+                </div>
+                <div>
+                    <div class="one">
+                        <h6>1. Type of Report (check all that apply)</h6>
+                        <div style="display: flex; gap: 3rem; margin-top: 3px">
+                            <span><input type="checkbox">Adverse Event</span>
+                            <span><input type="checkbox">Product Problem<span style="font-size: 9px;">(e.g.,
+                                    defects/malfunctions)</span></span>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h6>2. Outcome Attributed to Adverse Event(check all that apply)</h6>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 3px">
+                            <span><input type="checkbox">Death Date of death (dd-mmm-yyyy) :</span>
+                            <span><input type="checkbox">Life-threatening</span>
+                            <span><input type="checkbox">Disability or Permanent Damage</span>
+                            <span><input type="checkbox">Congenital Anomaly/Birth Defects</span>
+                            <span><input type="checkbox">Hospitalization (initial or prolonged)</span>
+                            <span><input type="checkbox">Other Serious or Important Medical Events</span>
+                            <span><input type="checkbox">Required Intervention to Prevent Permanent
+                                Impairment/Damage</span>
+                        </div>
+                    </div>
+                    <div
+                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; border-bottom: 1px solid black;">
+                        <div class="three">
+                            <h6>3. Date of Event (dd-mmm-yyyy)</h6>
+
+                        </div>
+                        <div class="four">
+                            <h6>4. Date of this Report (dd-mmm-yyyy)</h6>
+
+                        </div>
+                    </div>
+                    <div class="five">
+                        <h6>5. Describe Event or Problem</h6>
+
+                    </div>
+                    <div class="six">
+                        <h6>6. Relevant Tests/Laboratory Data, Including Dates</h6>
+
+                    </div>
+                    <div class="seven">
+                        <h6>7. Other Relevant History, Including Preexisting Medical Condition <span
+                                style="font-size: 9px;">(e.g., allergies, pregnancy, smoking
+                                and alcohol use, liver/kidney problems, etc)</span></h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box-c">
+                <div class="box-header">
+                    <h6>C. SUSPECT PRODUCT(S)</h6>
+                </div>
+                <h6 style="border-bottom: 1px solid black;">1. Name, Strength, Manufacturer/Compounder</h6>
+                <div style="display: grid;
+                grid-template-columns: 1fr 1fr;">
+                    <h6>#1 - Name and Strength</h6>
+                    <h6 class="even">#1 - NDC # or Unique ID</h6>
+                    <h6>#1 - Manufacturer/Compounder</h6>
+                    <h6 class="even">#1 - Lot#</h6>
+                    <h6>#2 - Name and Strength</h6>
+                    <h6 class="even">#2 - NDC # or Unique ID</h6>
+                    <h6>#2 - Manufacturer/Compounder</h6>
+                    <h6 class="even">#2 - Lot#</h6>
+                </div>
+                <div style="padding-bottom: 3rem;">
+                    <h6>2. List Medical Product and Treatment Given at the Same Time Of the Event and
+                        Date <span style="font-size: 9px">(Do not include treatment for initial event)</span></h6>
+                </div>
+            </div>
+            <h6>Submission of a report does not constitute an admission that medical
+                personnel, user facility, importer, distributor, manufacturer or product
+                caused or contributed to the event</h6>
+        </div>
+        <div class="right">
+            <div style="display: grid;
+            grid-template-columns: repeat(3, 1fr); column-gap: 10px;">
+                <!-- <div>
+                    <h6>3. Dose</h6>
+                    <span>#1</span><input />
+                </div>
+                <div>
+                    <h6>Frequency</h6>
+                    <input />
+                </div>
+                <div>
+                    <h6>Route Used</h6>
+                    <input>
+                </div>
+                <div style="padding-bottom: 10px;">
+                    <span>#2</span><input />
+                </div>
+                <div>
+                    <input />
+                </div>
+                <div>
+                    <input>
+                </div> -->
+                <div>
+                    <h6>3. Dose</h6>
+                    <span>#1</span><input /><br>
+                    <span>#2</span><input /><br>
+                </div>
+                <div>
+                    <h6>Frequency</h6>
+                    <input>
+                    <input>
+                </div>
+                <div>
+                    <h6>Route Used</h6>
+                    <input>
+                    <input>
+                </div>
+
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid black; ">
+                <div style="border-right:1px solid black; border-bottom: 1px solid black; padding-bottom: 10px;">
+                    <h6>4. Treatment Dates/therapy Dates (give length of treatment <span
+                            style="font-size: 9px;">(start/stop) or your best estimate.)</span>
+                    </h6>
+                    <div>
+                        <h6>#1 Start</h6>
+                        <h6>#2 Stop</p>
+                    </div>
+                </div>
+                <div style="border-bottom: 1px solid black;">
+                    <h6>
+                        <h6>5. Diagnosis for Use (indication)</h6>
+                        <h6>#1</h6>
+                    </h6>
+                </div>
+                <div
+                    style="padding: 5px 0; line-height: 2; border-right: 1px solid black; border-bottom: 1px solid black;">
+                    <h6>#1 Start</h6>
+                    <h6>#2 Stop</p>
+                </div>
+                <div style="padding: 5px 0; border-bottom: 1px solid black;">
+                    <h6>#2 Start</h6>
+                </div>
+                <div>
+                    <h6>6. Product Type <span>Check all the apply</span></h6>
+                    <div
+                        style="display: grid; grid-template-columns: 1fr 1fr; row-gap: 2px; margin-top: 5px;    border-bottom: 1px solid black;">
+                        <span><input type="checkbox">#1 OTC</span>
+                        <span><input type="checkbox">#2 OTC</span>
+                        <span><input type="checkbox">Compounded</span>
+                        <span><input type="checkbox">Compounded</span>
+                        <span><input type="checkbox">Generic</span>
+                        <span><input type="checkbox">Generic</span>
+                        <span><input type="checkbox">Biosimilar</span>
+                        <span><input type="checkbox">Biosimilar</span>
+                    </div>
+                </div>
+                <div style="border-bottom: 1px solid black; border-left: 1px solid black;">
+                    <h6>7. Expiration Date <span>(dd-mmm-yyyy)</span></h6>
+                    <h6>#1 Start</h6>
+                    <h6>#2 Stop</p>
+                </div>
+                <div>
+                    <h6>8. Event Abated After Use Stopped or Dose Reduced?</h6>
+                    <div>
+                        <span><input type="checkbox">#1 Yes</span>
+                        <span><input type="checkbox">No</span>
+                        <span><input type="checkbox">Doesn't apply</span>
+                    </div>
+                </div>
+                <div style="border-left: 1px solid black;">
+                    <h6>9. Event Reappeared After Reintroduction?</h6>
+                    <div>
+                        <span><input type="checkbox">#1 Yes</span>
+                        <span><input type="checkbox">No</span>
+                        <span><input type="checkbox">Doesn't apply</span>
+                    </div>
+                </div>
+                <div>
+                    <span><input type="checkbox">#2 Yes</span>
+                    <span><input type="checkbox">No</span>
+                    <span><input type="checkbox">Doesn't apply</span>
+                </div>
+                <div style="border-left: 1px solid black;">
+                    <span><input type="checkbox">#2 Yes</span>
+                    <span><input type="checkbox">No</span>
+                    <span><input type="checkbox">Doesn't apply</span>
+                </div>
+            </div>
+            <div class="box-g">
+                <div class="box-header">
+                    <h6>G. ALL MANUFACTURERS</h6>
+                </div>
+                <div style="display: grid; grid-template-columns: 2fr 1fr;;">
+                    <div style=" border-right: 1px solid black">
+                        <div>
+                            <h6 style="border-bottom: 1px solid black;">1. Contact Office (and Manufacturing Site for
+                                Devices) or Compounding Outsourcing
+                                Facility</h6>
+                            <h6 style="border-bottom: 1px solid black; ">Name</h6>
+                            <h6 style="border-bottom: 1px solid black; ">Email Address</h6>
+                            <h6 style="border-bottom: 1px solid black; ">Address</h6>
+                            <h6 style="border-bottom: 1px solid black;">Phone Number</h6>
+                            <div style="margin-bottom: 5px; margin-top: 5px">
+                                <h6 style="display: flex; align-items: center; gap: 5px"> Compounding Outsourcing
+                                    Facility 503B? <span style="display: flex; align-items: center"><input
+                                            type="checkbox">Check box if
+                                        applicable</span></h6>
+                            </div>
+                            <div style="display: grid; grid-template-columns: 1fr 3fr; margin-bottom: 8px;">
+                                <h6>Outsourcing Facility</h6>
+                                <span style="border-bottom: 1px solid black; margin-right: 10px;">
+                            </div>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid black;;">
+                            <div style="border-right: 1px solid black">
+                                <div style="padding-bottom: 1.5rem; border-bottom: 1px solid black">
+                                    <h6>3. Date Received by Manufacturer (dd-mmm-yyy)</h6>
+                                </div>
+                                <div style="padding-bottom: 1.5rem; border-bottom: 1px solid black">
+                                    <h6>5. If IND/PreANDA, Give Protocol #</h6>
+                                </div>
+                                <div>
+                                    <h6>6. Type of Report (check all that apply)</h6>
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr">
+                                        <span><input type="checkbox">5-days</span>
+                                        <span><input type="checkbox">Periodic</span>
+                                        <span><input type="checkbox">7-days</span>
+                                        <span><input type="checkbox">Initial</span>
+                                        <span><input type="checkbox">15-days</span>
+                                        <span><input type="checkbox">Follow-up #</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="line-height: 1.5">
+                                <h6
+                                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 5px; align-items: flex-end;">
+                                    NDA#
+                                    <span style="border-bottom: 1px solid black; width: 90px;"></span>
+                                </h6>
+                                <h6
+                                    style="display: grid; grid-template-columns: 1fr 2fr;gap: 5px; align-items: flex-end;">
+                                    ANDA#
+                                    <span style="border-bottom: 1px solid black; width: 90px;"></span>
+                                </h6>
+                                <h6
+                                    style="display: grid; grid-template-columns: 1fr 2fr;gap: 5px; align-items: flex-end;">
+                                    INDA#
+                                    <span style="border-bottom: 1px solid black; width: 90px;"></span>
+                                </h6>
+                                <h6
+                                    style="display: grid; grid-template-columns: 1fr 2fr;gap: 5px; align-items: flex-end;">
+                                    BLA#
+                                    <span style="border-bottom: 1px solid black; width: 90px;"></span>
+                                </h6>
+                                <h6
+                                    style="display: grid; grid-template-columns: 1fr 2fr;gap: 5px; align-items: flex-end;">
+                                    PMA/
+                                    510(k) #
+                                    <span style="border-bottom: 1px solid black; width: 90px;"></span>
+                                </h6>
+                                <h6 style="margin-top: 3px">Check all the apply:</h6>
+                                <div style="display: grid; justify-content: right; justify-items: right">
+                                    <span>Combination Product<input type="checkbox"></span>
+                                    <span>PreANDA<input type="checkbox"></span>
+                                    <span>Pre-1938<input type="checkbox"></span>
+                                    <span>OTC<input type="checkbox"></span>
+                                    <span>Combination Product<input type="checkbox"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h6>Report Source <span style="font-size: 9px">check all the apply</span></h6>
+                            <div style="padding-bottom: 1rem; display: grid; gap: 5px; margin-top: 3px;">
+                                <span><input type="checkbox">Foreign</span>
+                                <span><input type="checkbox">Study</span>
+                                <span><input type="checkbox">Literature</span>
+                                <span><input type="checkbox">Consumer</span>
+                                <span><input type="checkbox">Health Professional</span>
+                                <span><input type="checkbox">User Facility</span>
+                                <span><input type="checkbox">Company Representative</span>
+                                <span><input type="checkbox">Distributor/Imposter</span>
+                                <span><input type="checkbox">Other (Please-list):</span>
+                            </div>
+                        </div>
+                        <div style="padding-bottom: 2rem; border-top: 1px solid black">
+                            <h6>7. Adverse Event Term(s)</h6>
+                        </div>
+                        <div style="border-top: 1px solid black">
+                            <h6>8. Manufacturer Report Number</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box-e">
+                <div class="box-header">
+                    <h6>E. INITIAL REPORTER</h6>
+                </div>
+                <h6 style="border-bottom: 1px solid black; padding: 4px 0;">1. Name and Address </h6>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid black">
+                    <h6 style="border-right: 1px solid black  ;padding: 2px 0;">Last Name:</h6>
+                    <h6 style=" padding: 4px 0;">First Name:</h6>
+                </div>
+                <h6 style="border-bottom: 1px solid black;  padding: 2px 0; ">Address:</h6>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid black;">
+                    <h6 style="border-right: 1px solid black;  padding: 2px 0;">City:</h6>
+                    <h6 style=" padding: 4px 0;">State/Province/Region:</h6>
+                </div>
+                <div
+                    style=" padding: 2px 0;display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid black">
+                    <h6 style=" padding: 2px 0;border-right: 1px solid black">ZIP/Postal Code:</h6>
+                    <h6 style=" padding: 4px 0;">Country:</h6>
+                </div>
+                <div
+                    style=" padding: 2px 0;display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid black">
+                    <h6 style="border-right: 1px solid black;  padding: 4px 0;">Phone:</h6>
+                    <h6>Email:</h6>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+                    <div style="border-right: 1px solid black;">
+                        <h6>2. Health
+                            Professional?</h6>
+                        <div style="display: flex;  gap: 5px;">
+                            <span><input type="checkbox">Yes</span>
+                            <span><input type="checkbox">No</span>
+                        </div>
+                    </div>
+                    <div style="border-right: 1px solid black;">
+                        <h6>3. Occupation</h6>
+                        <input style="margin-left: 3px;">
+                    </div>
+                    <div>
+                        <h6>4. Initial Reporter Also Sent
+                            Report to FDA</h6>
+                        <div style="display: flex; gap: 5px;">
+                            <span><input type="checkbox">Yes</span>
+                            <span><input type="checkbox">No</span>
+                            <span><input type="checkbox">Unk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <p>SOTERIUS</p>
+        <p>5 Independence Way, Suite #300, Princeton, NJ 08540</p>
+        <p> Princeton,New Jersey 08540</p>
+        <p> United States of America</p>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); margin: 20px 0;">
+            <div>
+                <h6>
+                    Continuation Sheet for FDA-3500A Form
+                </h6>
+                <h6>
+                    Page <span style="text-decoration:underline;">2</span> of <span
+                        style="text-decoration:underline;">2</span>
+                </h6>
+            </div>
+            <div>
+                <h6>Mfr. Report # : SOT2022-000020</h6>
+                <h6>Date of This Report : 04-Aug-2022</h5>
+            </div>
+        </div>
+        <h6>B. ADVERSE EVENT OR PRODUCT PROBLEM</h6>
+        <h6 style="margin-top: 10px;">B.6 Relevant Tests/Laboratory Data, Including Dates (Cont...)</h6>
+        <div style="margin-top: 10px;">
+            <h6>Lab Result :</h6>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); padding-bottom: 4rem;">
+                <h6>Test name</h6>
+                <h6>Test date</h6>
+                <h6>Test result</h6>
+                <h6>Normal value</h6>
+                <h6>Classification</h6>
+            </div>
+        </div>
+        <h6 style="padding-bottom: 4rem;">B.7 Other Relevant History, Including Preexisting Medical Conditions (Cont...)
+        </h6>
+        <h5 style="padding-bottom: 1rem;">C. SUSPECT PRODUCT(S) (Cont...)</h5>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Seq No.</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>C.1 Suspect Product</h6>
+            <p>: </p>
+        </div>
+        <h6 style="margin: 20px 0;">
+            C.2 List Medical Product and Treatment Given at the Same Time Of the Event and Date
+        </h6>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Seq No.</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Concomitant Medical Product</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Dose, Frequency & Route Used</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 20px;">
+            <h6>Diagnosis for Use (Indication)</h6>
+            <p>: </p>
+        </div>
+        <h6 style="margin-bottom: 5rem;">E. INITIAL REPORTER</h6>
+        <h6>G. ALL MANUFACTURERS</h6>
+        <h6 style="padding: 1rem 0 3rem 0">G.1 Contact Office: Name/Address (and manufacturing site for Device)</h6>
+
+        <h5>Source of report (Literature):</h5>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Seq No.</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Journal title</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Year</h6>
+            <p>: </p>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <h6>Article title</h6>
+            <p>: </p>
+        </div>
+    </div>
+</body>
+
+</html>
